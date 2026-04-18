@@ -1,8 +1,16 @@
-let nums=[10,20,30];
-for(let i=0;i<nums.length;i++){
-    console.log(nums);
-    
-}
+let nums=[];
+console.log(nums);
+nums.push(10);
+nums.push(20);
+console.log(nums);
+console.log(nums[0]);
+nums[1]=25;
+console.log(nums);
+nums.pop();
+console.log(nums);
+
+
+
 
 
 
